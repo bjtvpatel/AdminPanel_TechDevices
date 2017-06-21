@@ -1,0 +1,168 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+    
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*Custome style..*/
+
+
+.bgImage {
+    background-color: white;
+    color: rgb(40, 36, 36) !important;
+    z-index: 10;
+}
+
+.navbar-inverse {
+    /*opacity: 0.9;*/
+    color: white !important;
+    z-index: 11;
+}
+.navbar-cs {
+    -ms-opacity: 0.7;
+    opacity: 0.7;
+    color: white !important;
+    z-index: 12;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+/*----------------|Header Section|--------------------*/
+.jumbotron-cs {
+    height: 175px !important;
+    width: 100%;
+
+   
+    /*background-image: url(~/Image/banner_1015x303-1.jpg) !important;*/
+    -ms-background-size: cover;
+    background-size: cover;
+    
+    
+    -ms-background-position: center;
+    background-position: center;
+}
+
+.banner-cs {
+    height: 100px;
+    width: 100%;
+    margin-top: -50px;
+    -ms-background-size: cover;
+    background-size: cover;
+    -ms-background-repeat:no-repeat;
+    background-repeat:no-repeat;
+}
+
+/*----------------|Index Page Section|--------------------*/
+.creatRow-cs {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.createLabel {
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin-left: 0;
+    width: 150px;
+    
+}
+
+.btn-filter {
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin-left: 10px;
+    width: 70px;
+}
+.dropdown-cs {
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin-left: 10px;  
+}
+
+
+.row-display {
+    vertical-align: middle;
+    -moz-align-content: center;
+    -o-align-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+.column-display {
+    height: 490px;
+    width: 350px;
+    position: relative;
+    /*background-color: azure;*/
+    border: 1px solid  #e6e6e6;
+    text-align: center;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    margin: 10px 10px;
+    padding: 0;
+    
+}
+
+.column-display p {
+    margin-top: 5px; 
+    text-align: center;
+     
+}
+.imgGallary-cs {
+    height: 375px;
+    width: 275px;
+    display: inline-block;
+    border: 0;
+    
+}
+
+.rowLabel-cs
+{
+
+    margin-left: 45px;
+      
+}
+.columnlable-cs
+{
+    padding: 0 20px;
+    
+     
+    margin-left: 0;
+}
+
+/*----------------|Common Page controls|--------------------*/
+.goback-cs {
+    font-size: 1.1em;
+    padding-top: 0;
+}
+
+.wrapper-cs {
+    width: 100% !important;
+    height: auto;
+    border: 1px solid grey !important;
+    margin: 20px 10px 0 10px !important;
+    padding: 10px 10px !important;   
+}
